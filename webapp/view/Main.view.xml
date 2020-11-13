@@ -1,9 +1,11 @@
-<mvc:View controllerName="my.firstbasapp.controller.Main" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="my.firstbasapp.controller.Main" displayBlock="true">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+				<content>
+				    <Button xmlns="sap.m" text="Button" id="button1"/>
+				</content>
 				</Page>
 			</pages>
 		</App>
